@@ -11,7 +11,7 @@
 
 # Name of website
 title: Jarry Likes Movies
-
+description: This is where I tell you about the movies I watch. 🎬 
 # Your name to show in the footer
 author: Jarry
 
@@ -20,7 +20,7 @@ author: Jarry
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
+  # About Me: "aboutme"
   # Resources:
   #   - Beautiful Jekyll: "https://beautifuljekyll.com"
   #   - Learn markdown: "https://www.markdowntutorial.com/"
@@ -36,6 +36,9 @@ avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
+
+
+header_image: /assets/img/header.png
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
@@ -86,7 +89,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: This website is a virtual proof that I'm awesome
+rss-description: This is where I tell you about the movies I watch.
 
 ###########################
 # --- General options --- #
