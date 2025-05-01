@@ -1,11 +1,10 @@
 {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
 
-{% if page.url == "/" %}
-  <!-- Custom homepage header image -->
+{% if page.show_header_image %}
   <div class="home-header-image">
     <img src="/assets/img/header.png" alt="Header image" style="width: 100%; height: auto;" />
   </div>
-{% else %}
+{% endif %}
   {% if page.cover-img %}
     <div id="header-big-imgs" data-num-img={% if page.cover-img.first %}{{ page.cover-img.size }}{% else %}1{% endif %}
       {% for bigimg in page.cover-img %}

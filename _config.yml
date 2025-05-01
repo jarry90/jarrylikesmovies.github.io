@@ -38,7 +38,7 @@ avatar: "/assets/img/avatar-icon.png"
 round-avatar: true
 
 
-header_image: /assets/img/header.png
+header_image: "/assets/img/header.png"
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
